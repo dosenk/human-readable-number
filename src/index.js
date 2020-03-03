@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 module.exports = function toReadable (number) {
         let numbers = {
             0: "zero",
@@ -44,4 +43,3 @@ module.exports = function toReadable (number) {
             return numbers[sot] += dec == 0 ? ' hundred' : (dec - ost) < 20 ?  ' hundred ' + numbers[dec] : ' hundred ' + (ost == 0 ? numbers[dec] : numbers[dec - ost] + ' ' + numbers[ost]);
         }
 };
->>>>>>> c1586538bc59b0bc7b8fc9a0968a5cc38f2a8af8
